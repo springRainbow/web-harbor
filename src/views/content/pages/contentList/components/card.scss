@@ -1,0 +1,108 @@
+.consult-card {
+  position: fixed;
+  z-index: 600;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 420px;
+  padding: 24px;
+  background: rgba(250, 250, 250, 1);
+  border-radius: 4px;
+}
+
+.card-title-area {
+  display: flex;
+}
+
+.card-title {
+  display: inline-block;
+  height: 26px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 26px;
+  margin-right: 8px;
+}
+
+.card-tips {
+  display: inline-block;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.4);
+  line-height: 22px;
+}
+
+.demo-ruleForm {
+  margin-top: 16px;
+}
+
+.z-item {
+  width: 100px;
+  height: 100px;
+  border-radius: 4px;
+  display: inline-block;
+
+  &.upload-btn {
+    background: rgba(0, 0, 0, 0.02);
+    border: 1px dashed rgba(204, 204, 204, 1);
+    position: relative;
+  }
+}
+
+.hidden-file {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: relative;
+  z-index: 100;
+}
+
+.add-pic {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  z-index: 10;
+}
+
+.upload-qrcode {
+  position: absolute;
+  left: 20px;
+  top: 54px;
+  height: 18px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.m-modal {
+  z-index: 599;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background: #000;
+}
+
+.form-tip {
+  color: #15cfdc;
+  font-size: 0.8em;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.form-tip-before {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 0.8em;
+}
+.form-tip:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+a {
+  color: cornflowerblue;
+  transition: all 0.3s;
+}
+a:hover {
+  color: rgba(0, 0, 0, 0.4);
+}

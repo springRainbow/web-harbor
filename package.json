@@ -1,0 +1,54 @@
+{
+  "name": "harbor",
+  "version": "0.1.0",
+  "description": "轻舟号平台",
+  "private": false,
+  "author": "zhaofangmo@tal.com",
+  "scripts": {
+    "dev": "vue-cli-service serve --mode local",
+    "test": "vue-cli-service build --mode development",
+    "beta": "vue-cli-service build --mode beta",
+    "online": "vue-cli-service build --mode production",
+    "report": "vue-cli-service build --report"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "dayjs": "^1.10.4",
+    "echarts": "^5.0.2",
+    "element-ui": "^2.4.5",
+    "html2json": "^1.0.2",
+    "js-md5": "^0.7.3",
+    "mty-img-preview": "^1.0.1",
+    "vue": "^2.6.11",
+    "vue-cookie": "^1.1.4",
+    "vue-cropper": "^0.5.6",
+    "vue-lazyload": "^1.3.3",
+    "vue-router": "^3.2.0",
+    "vuescroll": "~4.14.4",
+    "vuex": "^3.4.0",
+    "wangeditor": "^4.6.9",
+    "xss": "^1.0.8"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-plugin-component": "^1.1.1",
+    "filemanager-webpack-plugin": "^4.0.0",
+    "husky": "~4.3.8",
+    "node-sass": "^4.12.0",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0",
+    "sass-loader": "^8.0.2",
+    "style-resources-loader": "^1.3.3",
+    "video.js": "^7.11.4",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+/*
+Write your variables here. All available variables can be
+found in element-ui/packages/theme-chalk/src/common/var.scss.
+For example, to overwrite the theme color:
+*/
+$--color-primary: #15cfdc;
+
+/* icon font path, required */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import '~element-ui/packages/theme-chalk/src/index';
+
+.el-button {
+  border-radius: 18px;
+  font-size: 14px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+.el-button--small {
+  height: 36px;
+}
+.el-button--mini {
+  font-size: 12px;
+  height: 32px;
+}
+.el-button--default.is-plain {
+  color: $mainColor;
+  border-color: #a1ecf1;
+  &:hover {
+    background: #e8fafc;
+    border-color: #a1ecf1;
+  }
+}
+.el-table th {
+  background: #f5f5f5;
+}
+.el-table th > .cell,
+.tableHeader > .cell {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.8);
+}
+.el-dialog {
+  border-radius: 8px;
+}
+.el-drawer__body {
+  overflow-y: auto;
+}
+.el-dropdown-link {
+  outline: 0;
+}
+.el-tabs__item {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: unset;
+}
+.el-tabs__item.is-active {
+  font-weight: bold;
+}
+.el-tabs__active-bar {
+  background-size: 18px 9px;
+  background-image: url('~@/assets/tab-active.png');
+  height: 11px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  margin: 0px auto;
+  background-position: center top;
+}
+.el-tabs__nav-wrap::after {
+  display: none !important;
+}
+.el-message-box__btns .el-button {
+  height: 32px;
+}
+.el-submenu .el-menu-item {
+  min-width: auto;
+  padding: 0;
+  margin: 0 16px;
+  padding-left: 26px !important;
+  border-radius: 4px;
+}

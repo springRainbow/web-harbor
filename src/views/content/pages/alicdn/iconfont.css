@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'qzfont'; /* Project id 2502564 */
+  src: url('iconfont.woff2?t=1622184067428') format('woff2'), url('iconfont.woff?t=1622184067428') format('woff'),
+    url('iconfont.ttf?t=1622184067428') format('truetype');
+}
+
+.qzfont {
+  font-family: 'qzfont' !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.qzwenhao1:before {
+  content: '\e601';
+}
+
+.qzwenhao:before {
+  content: '\e60b';
+}
+
+.qzcheckbox:before {
+  content: '\e600';
+}
+
+.qzloadfail:before {
+  content: '\e602';
+}
+
+.qzreminder:before {
+  content: '\e603';
+}
+
+.qzupload-success:before {
+  content: '\e604';
+}
+
+.qzimage:before {
+  content: '\e605';
+}
+
+.qzchecked:before {
+  content: '\e606';
+}
+
+.qzrefresh:before {
+  content: '\e607';
+}

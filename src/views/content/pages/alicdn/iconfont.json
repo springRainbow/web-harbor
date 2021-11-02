@@ -1,0 +1,72 @@
+{
+  "id": "2502564",
+  "name": "轻舟号平台",
+  "font_family": "qzfont",
+  "css_prefix_text": "qz",
+  "description": "轻舟号平台",
+  "glyphs": [
+    {
+      "icon_id": "21181210",
+      "name": "问号",
+      "font_class": "wenhao1",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "21181171",
+      "name": "问号",
+      "font_class": "wenhao",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "21152269",
+      "name": "checkbox",
+      "font_class": "checkbox",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "21152271",
+      "name": "loadfail",
+      "font_class": "loadfail",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "21152272",
+      "name": "reminder",
+      "font_class": "reminder",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "21152273",
+      "name": "upload-success",
+      "font_class": "upload-success",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "21152274",
+      "name": "image",
+      "font_class": "image",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "21152275",
+      "name": "checked",
+      "font_class": "checked",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "21152276",
+      "name": "refresh",
+      "font_class": "refresh",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    }
+  ]
+}
