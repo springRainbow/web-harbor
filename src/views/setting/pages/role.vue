@@ -12,14 +12,14 @@
       <div class="role-part_item role-part_custom">
         <h3 class="role-part_item-tit">
           自定义
-      <el-button
-        type="text"
-        class="fr role-part_item-btn f14"
-        size="mini"
-        icon="el-icon-circle-plus-outline"
-        @click="addRole"
-        >添加</el-button
-      >
+          <el-button
+            type="text"
+            class="fr role-part_item-btn f14"
+            size="mini"
+            icon="el-icon-circle-plus-outline"
+            @click="addRole"
+            >添加</el-button
+          >
         </h3>
         <ul>
           <li
